@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+frontend/dist/
+
+# Backend Storage & Databases
+backend/storage/*
+!backend/storage/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Datasets and Large Media
+custom_dataset/
+custom_dataset.zip
+*.zip
+*.tar
+*.gz
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ML Model Checkpoints & Artifacts (Train or import via platform)
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.h5
+
+# Credentials and Sensitive Files
+kaggle.json*
+*.key
+*.pem
+.env
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
